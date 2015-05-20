@@ -1,0 +1,19 @@
+{
+  "name": "Glitch-api",
+  "version": "0.0.1",
+  "description": "Glitch with music or music with glitch. You choose.",
+  "main": "index.js",
+  "author": "Burak Can <neoberg@gmail.com> (http://burakcan.me/)",
+  "license": "gpl-v2",
+  "scripts": {
+    "start": "./node_modules/pm2/bin/pm2 start index.js -u node --name glitch-api",
+    "stop":"./node_modules/pm2/bin/pm2 delete glitch-api"
+  },
+  "devDependencies": {
+    "flickr-client": "0.0.3",
+    "lastfm": "^0.9.2",
+    "pm2": "^0.12.15",
+    "restify": "^3.0.3",
+    "youtube-api": "^0.3.2"
+  }
+}

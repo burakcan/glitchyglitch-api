@@ -1,6 +1,6 @@
 var Flickr = require('flickr-client');
 
-var API_KEY     = '378d3d3eb984952712dea521b41c0a39';
+var API_KEY     = '';
 
 var ImageHandler = function(req, res, next){
   var interest = req.params['interest'];

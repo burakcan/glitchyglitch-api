@@ -2,11 +2,11 @@ var LastFmNode = require('lastfm').LastFmNode;
 var Youtube    = require('youtube-api');
 
 var YOUTUBE    = {
-  API_KEY      : 'AIzaSyAr4ZF8XJqh1ru1Fvw8f5e27KleSYDcRGs'
+  API_KEY      : ''
 };
 
 var LASTFM     = {
-  API_KEY      : '91f3de73fcc150a08cde36ac623525c1'
+  API_KEY      : ''
 }
 
 var SearchHandler = function(req, res, next){
